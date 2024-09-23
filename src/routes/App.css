@@ -1,0 +1,21 @@
+.appContainer{
+  display: flex;
+}
+
+.content{
+  width: 100%;
+}
+
+.sidebar{
+  min-height: 100vh;
+}
+
+.post-card {
+  height: 50vh;
+  width: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  overflow-y: auto;
+}
